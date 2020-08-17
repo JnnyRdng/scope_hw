@@ -236,3 +236,38 @@ const verdict = declareMurderer();
 console.log(verdict);
 
 // The murderer is Professor Plum
+
+
+
+
+
+
+
+/*
+EXTENSIONS
+*/
+
+// Episode 1
+
+const scenario = {
+    murderer: "Reverend Green",
+    weapon: "Lead Pipe",
+    room: "Ballroom"
+}
+const redHerring = function () {
+    let murderer = "Professor Plum";
+    let room = "Library";
+
+    const plotTwist = function () {
+        if (scenario.room === "Library") {
+            scenario.murderer = murderer;
+        }
+    }
+    plotTwist();
+}
+redHerring();
+const declareMurderer = function () {
+    return `The murderer is ${scenario.murderer}`;
+}
+const verdit = declareMurderer();
+console.log(verdict);
