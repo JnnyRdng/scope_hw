@@ -213,6 +213,9 @@ changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
 
+// The weapon is Candle Stick
+
+
 
 
 /*
