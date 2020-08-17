@@ -107,6 +107,8 @@ changeWeapon('Revolver');
 const verdict = declareWeapon();
 console.log(verdict);
 
+// The weapon is the Revolver
+
 
 
 /*
