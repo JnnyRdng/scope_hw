@@ -254,20 +254,49 @@ const scenario = {
     weapon: "Lead Pipe",
     room: "Ballroom"
 }
-const redHerring = function () {
+const plotTwist = function () {
     let murderer = "Professor Plum";
     let room = "Library";
 
-    const plotTwist = function () {
+    const redHerring = function () {
         if (scenario.room === "Library") {
-            scenario.murderer = murderer;
+            scenario.murderer = "Mrs. Peacock";
         }
     }
-    plotTwist();
+    redHerring();
 }
-redHerring();
+plotTwist();
 const declareMurderer = function () {
     return `The murderer is ${scenario.murderer}`;
 }
-const verdit = declareMurderer();
+const verdict = declareMurderer();
 console.log(verdict);
+
+// Reverend Green
+
+
+
+// Episode 2
+
+let murderer = "Professor Plum";
+let weapon = "Revolver";
+let room = "Study";
+
+const accusation = function (weapon, room) {
+    let murderer;
+    if (weapon === "Revolver" && room === "Study") {
+        murderer = "Miss Scarlet";
+    }
+    return murderer;
+}
+if (murderer === "Professor Plum") {
+    murderer = accusation(weapon, room);
+    room = "Kitchen";
+}
+const declareMurderer = function () {
+    return `The murderer is ${murderer}`;
+}
+const verdict = declareMurderer();
+console.log(verdict);
+
+//  Miss Scarlet
