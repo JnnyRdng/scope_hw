@@ -235,4 +235,4 @@ const declareMurderer = function () {
 const verdict = declareMurderer();
 console.log(verdict);
 
-
+// The murderer is Professor Plum
