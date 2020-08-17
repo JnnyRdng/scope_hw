@@ -58,6 +58,9 @@ console.log('First Verdict: ', firstVerdict);
 const secondVerdict = `The murderer is ${murderer}.`;
 console.log('Second Verdict: ', secondVerdict);
 
+// first verdict is Mrs. Peacock
+// second verdict is Professor Plum
+
 
 
 /*
