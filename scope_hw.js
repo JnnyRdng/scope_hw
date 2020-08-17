@@ -15,6 +15,8 @@ const declareMurderer = function () {
 const verdict = declareMurderer();
 console.log(verdict);
 
+// 'Miss Scarlet' is logged to the console.
+
 
 
 /*
