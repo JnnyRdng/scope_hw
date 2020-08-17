@@ -37,6 +37,8 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 
+// error - can't reassign a const
+
 
 
 /*
