@@ -169,6 +169,9 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 
+// The murderer is Mr Green
+
+
 
 
 /*
