@@ -80,6 +80,9 @@ const suspects = declareAllSuspects();
 console.log(suspects);
 console.log(`Suspect three is ${suspectThree}.`);
 
+// The suspects are Miss Scarlet, Professor Plum, Colonel Mustard
+// Suspect three is Mrs. Peacock
+
 
 
 /*
